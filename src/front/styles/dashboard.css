@@ -55,7 +55,7 @@
   }
   .navigation {
     width: 270px;
-    border-right: 1px solid #ddd;
+    border-right: 1px solid #fcfcfc;
   }
   .abilan > img {
     width: 120px;
@@ -67,6 +67,7 @@
     padding: 0 25px;
     height: 100%;
     overflow: auto;
+    background-color: #ffffff;
   }
   
   .compose {
@@ -83,7 +84,7 @@
   }
   .folders {
     margin-top: 30px;
-    color: #b8b8b8;
+    color: #db10a8;
     font-size: 14px;
   }
   .folder-icons {
@@ -94,7 +95,7 @@
   
   .icon-name1 {
     margin-left: 10px;
-    color: #8b47a9;
+    color: #a84bfe;
   }
   
   .icon-name {
@@ -324,7 +325,7 @@
   }
   
   .mail-names {
-    color: grey;
+    color: rgb(95, 93, 93);
     font-weight: bold;
     font-size: 15px;
     margin-left: 10px;

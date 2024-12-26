@@ -26,38 +26,38 @@ const Dashboard = ({name}) => {
         <div className="navigation">
           <div className="wrapper2">
             <button className="compose mt-3">
-              Compose Mail
+              Nuevo Mail
               <span className="plus">
                 <img src="https://i.ibb.co/v1HxGWj/add-1.png" />
               </span>
             </button>
-            <div className="folders">Folders</div>
+            <div className="folders">Carpetas</div>
             <div className="folder-icons">
               <div className="icon1">
                 <img src="https://i.ibb.co/qdgf3TJ/envelope.png" />
               </div>
               <div className="icon-name1">
-                Inbox
-                <button className="buton-span"> 20</button>
+                Buzon
+                <button className="buton-span"> 5</button>
               </div>
             </div>
             <div className="folder-icons">
               <div className="icon1">
                 <img src="https://i.ibb.co/2yLfX9W/sent-mail.png" />
               </div>
-              <div className="icon-name">Send Mail</div>
+              <div className="icon-name">Enviar Mail</div>
             </div>
             <div className="folder-icons">
               <div className="icon1">
                 <img src="https://i.ibb.co/6ZH9kK3/star.png" />
               </div>
-              <div className="icon-name">Important</div>
+              <div className="icon-name">Importante</div>
             </div>
             <div className="folder-icons">
               <div className="icon1">
                 <img src="https://i.ibb.co/z4QhcbD/email.png" />
               </div>
-              <div className="icon-name">Draft</div>
+              <div className="icon-name">Borradores</div>
             </div>
             <div className="folder-icons">
               <div className="icon1">
@@ -69,31 +69,31 @@ const Dashboard = ({name}) => {
               <div className="icon1">
                 <img src="https://i.ibb.co/xfcFLCN/waste-bin.png" />
               </div>
-              <div className="icon-name">Trash</div>
+              <div className="icon-name">Papelera</div>
             </div>
             <div className="folders">Online Friends</div>
             <div className="folder-icons">
               <div className="avatar">
                 <div className="online"></div>
-                <img src="https://randomuser.me/api/portraits/women/65.jpg" />
+                <img src="https://randomuser.me/api/portraits/women/64.jpg" />
               </div>
-              <div className="names">Don Allen</div>
-            </div>
-            <div className="folder-icons">
-              <div className="avatar">
-                <div className="online"></div>
-                <img src="https://randomuser.me/api/portraits/women/71.jpg" />
-              </div>
-              <div className="names">Aaron Tim</div>
+              <div className="names">Gabriella</div>
             </div>
             <div className="folder-icons">
               <div className="avatar">
                 <div className="online red"></div>
-                <img src="https://randomuser.me/api/portraits/men/54.jpg" />
+                <img src="https://randomuser.me/api/portraits/men/79.jpg" />
               </div>
-              <div className="names">Jack Joe</div>
+              <div className="names">ZAS</div>
             </div>
-            <div className="folders">Labels</div>
+            <div className="folder-icons">
+              <div className="avatar">
+                <div className="online"></div>
+                <img src="https://randomuser.me/api/portraits/men/20.jpg" />
+              </div>
+              <div className="names">Alan M.</div>
+            </div>
+            <div className="folders">#Tags</div>
             <div className="section1">
               <button className="btn buton1 mx-3">
                 {" "}
@@ -134,7 +134,7 @@ const Dashboard = ({name}) => {
         <div className="right-header">
           <div className="top-bar">
             <div className="top-bar-justify">
-              <div className="big-inbox">Inbox</div>
+              <div className="big-inbox">Buzon</div>
 
               <div className="top-bar-items">
                 <div className="notif">
@@ -195,10 +195,10 @@ const Dashboard = ({name}) => {
             <div className="card">
               <div className="mails">
                 <img src="https://randomuser.me/api/portraits/men/20.jpg" />
-                <div className="mail-names">Louis Adkins</div>
+                <div className="mail-names">Alan M.</div>
               </div>
               <div className="mail-info">
-                How To Write Better Advertising Copy Heading
+                Como realizar bien un proyecto final en 4Geeks
               </div>
               <div></div>
               <div className="bottom-info">
@@ -213,15 +213,15 @@ const Dashboard = ({name}) => {
                     <img src="https://i.ibb.co/FW9tsHK/attachment.png" />
                   </div>
                 </div>
-                <div className="date">8:30 AM</div>
+                <div className="date">08:40 PM</div>
               </div>
             </div>
             <div className="card">
               <div className="mails">
-                <span className="person border1"> C</span>
-                <div className="mail-names">Clarence Hogan</div>
+              <img src="https://randomuser.me/api/portraits/men/79.jpg" />
+                <div className="mail-names">ZAS</div>
               </div>
-              <div className="mail-info">How To Write Better Advertising</div>
+              <div className="mail-info">Como usar bien Figma</div>
               <div></div>
               <div className="bottom-info">
                 <div className="check1">
@@ -235,15 +235,15 @@ const Dashboard = ({name}) => {
                     <img src="https://i.ibb.co/FW9tsHK/attachment.png" />
                   </div>
                 </div>
-                <div className="date">8:30 AM</div>
+                <div className="date">8:30 PM</div>
               </div>
             </div>
             <div className="card">
               <div className="mails">
                 <span className="person border2">O</span>
-                <div className="mail-names">Olga Boone</div>
+                <div className="mail-names">Lorena Guillen</div>
               </div>
-              <div className="mail-info">Old Fashioned Recipe</div>
+              <div className="mail-info">Gestion de JWT</div>
               <div></div>
               <div className="bottom-info">
                 <div className="check1">
@@ -266,7 +266,7 @@ const Dashboard = ({name}) => {
                 <div className="mail-names">Harry Burton</div>
               </div>
               <div className="mail-info">
-                How To Write Better Advertising Copy Heading
+                Curso avanzado de Python
               </div>
               <div></div>
               <div className="bottom-info">
@@ -286,16 +286,16 @@ const Dashboard = ({name}) => {
             </div>
           </div>
           <div className="message">
-            <div className="mes-date">Dec 1, 2018</div>
+            <div className="mes-date">Dec 26, 2024</div>
             <div className="title">
-              Old Fashioned Recipe For Preventing Allergies And Chemical
+              Como estructurar correctamente un proyecto final de Full Stack Developer
               <div className="title-icons"></div>
             </div>
             <div className="from">
-              <span className="who">From: </span>ashraf@glaze.com
+              <span className="who">From: </span>ZASf@4GeeksAcademy.com
             </div>
             <div className="message-from">
-              Hello Malikan!
+              Hola {name}!
               <p>
                 {" "}
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint,
@@ -309,8 +309,8 @@ const Dashboard = ({name}) => {
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Inventore, deleniti eaque eligendi minus maxime tempora eiusi.
               </p>
-              <p>Have a nice day</p>
-              <p>Ashraf</p>
+              <p>Saludos</p>
+              <p>ZAS</p>
             </div>
             <div className="attachment-last">
               <img src="https://i.ibb.co/FW9tsHK/attachment.png" />
