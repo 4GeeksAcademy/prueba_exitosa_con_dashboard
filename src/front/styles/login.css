@@ -6,7 +6,7 @@
   }
   
   body {
-    background: #615d5e;
+    background: #bfcc72;
     font-family: 'Rubik', sans-serif;
   }
   
@@ -70,6 +70,7 @@
     text-transform: uppercase;
     display: inline-block;
     margin-top: 20px;
+    
   }
   .login-form .action {
     display: -webkit-box;
